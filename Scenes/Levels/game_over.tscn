@@ -1,9 +1,14 @@
 [gd_scene format=3 uid="uid://c15tw24t3axhb"]
 
+[ext_resource type="Texture2D" uid="uid://ci2psd6yjnbta" path="res://Scenes/Levels/Gemini_Generated_Image_k9zerok9zerok9ze.png" id="1_5lehs"]
 [ext_resource type="PackedScene" uid="uid://puc4l62gx6et" path="res://Scenes/Prefabs/button_exit.tscn" id="2_buq0o"]
 [ext_resource type="Theme" uid="uid://d3eng5cvycmjf" path="res://Scenes/Prefabs/theme.tres" id="2_chlux"]
 
 [node name="GameOver" type="Node2D" unique_id=826370530]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1748883659]
+position = Vector2(567, 291)
+texture = ExtResource("1_5lehs")
 
 [node name="Title" type="Label" parent="." unique_id=1965507633]
 offset_left = 419.0
@@ -15,21 +20,20 @@ theme_override_colors/font_color = Color(0.88235295, 0.18039216, 0.1882353, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 10
 theme_override_font_sizes/font_size = 24
-text = "Game Over"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="btnExit" parent="." unique_id=1633606001 instance=ExtResource("2_buq0o")]
-offset_left = 438.0
-offset_top = 359.0
-offset_right = 564.0
-offset_bottom = 413.0
+offset_left = 497.0
+offset_top = 605.0
+offset_right = 623.0
+offset_bottom = 659.0
 text = "Exit to Menu"
 
 [node name="btnPlay" parent="." unique_id=1146872882 instance=ExtResource("2_buq0o")]
-offset_left = 597.0
-offset_top = 359.0
-offset_right = 723.0
-offset_bottom = 413.0
+offset_left = 410.0
+offset_top = 306.0
+offset_right = 708.6666
+offset_bottom = 434.0
 shortcut = null
 text = "Play Again"

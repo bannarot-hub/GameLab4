@@ -1,8 +1,15 @@
-[gd_scene format=3 uid="uid://cppg5yoxwv0dy"]
+[gd_scene format=4 uid="uid://cppg5yoxwv0dy"]
 
 [ext_resource type="PackedScene" uid="uid://bjntpxb1c8jxn" path="res://Scenes/Levels/base_level.tscn" id="1_3fxa7"]
 [ext_resource type="Texture2D" uid="uid://dkc8rdq3j7ppf" path="res://Assets/BG/mountainA.png" id="2_2e1f7"]
 [ext_resource type="PackedScene" uid="uid://towe6jtciome" path="res://Scenes/Levels/level_03.tscn" id="2_q8k1b"]
+[ext_resource type="Texture2D" uid="uid://csnojpn7wu2xa" path="res://Assets/BG/orig_big.png" id="3_g4e5w"]
+[ext_resource type="TileSet" uid="uid://bvk6vx5i1riqd" path="res://Scenes/Prefabs/ground_tile_set.tres" id="4_mnnsc"]
+[ext_resource type="PackedScene" uid="uid://chbm7cpcjw3nu" path="res://Scenes/trap_spear.tscn" id="5_51x33"]
+[ext_resource type="PackedScene" uid="uid://b48s52q3f64kl" path="res://Scenes/Actors/monster_mushroom.tscn" id="5_fwrqu"]
+[ext_resource type="PackedScene" uid="uid://bp4l1nlnh8oq1" path="res://Scenes/Prefabs/trap_2.tscn" id="6_f8isr"]
+[ext_resource type="PackedScene" uid="uid://ek7hxkqp2wff" path="res://Scenes/Actors/monster_slim.tscn" id="6_g4e5w"]
+[ext_resource type="PackedScene" uid="uid://cb8e62red7kc0" path="res://Scenes/Prefabs/trap_1.tscn" id="7_x41uu"]
 
 [node name="BaseLevel" unique_id=1997201631 instance=ExtResource("1_3fxa7")]
 
@@ -16,10 +23,64 @@ metadata/_edit_lock_ = true
 [node name="Background2" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="1" unique_id=1070008654]
 metadata/_edit_lock_ = true
 
-[node name="MountainA" type="Sprite2D" parent="Level/Background2" index="0" unique_id=1142107788]
+[node name="MountainA2" type="Sprite2D" parent="Level/Background2" index="0" unique_id=1459609161]
+position = Vector2(335.00003, 683.00006)
+scale = Vector2(4.5515094, 5.9899783)
+texture = ExtResource("3_g4e5w")
+
+[node name="MountainA" type="Sprite2D" parent="Level/Background2" index="1" unique_id=1142107788]
 position = Vector2(270.25, 217.24998)
 scale = Vector2(2.1334267, 2.4474432)
 texture = ExtResource("2_2e1f7")
 
+[node name="Ground" type="TileMapLayer" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="2" unique_id=641445398]
+tile_map_data = PackedByteArray("AAAAAAoAAAAAAAAAAAAAAAkAAAAAAAAAAAABAAkAAAAAAAAAAAACAAkAAAAAAAAAAAACAAoAAAAAAAAAAAADAAoAAAAAAAAAAAAEAAoAAAAAAAAAAAABAAoAAAAAAAAAAAADAAkAAAAAAAAAAAAEAAkAAAAAAAAAAAAFAAkAAAAAAAAAAAAGAAkAAAAAAAAAAAAHAAkAAAAAAAAAAAAHAAoAAAAAAAAAAAAGAAoAAAAAAAAAAAAFAAoAAAAAAAAAAAAFAAgAAAAAAAAAAAAFAAcAAAAAAAAAAAAEAAgAAAAAAAAAAAAGAAgAAAAAAAAAAAAGAAcAAAAAAAAAAAAHAAgAAAAAAAAAAAAIAAkAAAAAAAAAAAAJAAkAAAAAAAAAAAAKAAkAAAAAAAAAAAAKAAgAAAAAAAAAAAALAAgAAAAAAAAAAAALAAkAAAAAAAAAAAAMAAkAAAAAAAAAAAAMAAgAAAAAAAAAAAANAAgAAAAAAAAAAAANAAkAAAAAAAAAAAAOAAkAAAAAAAAAAAAPAAkAAAAAAAAAAAAPAAgAAAAAAAAAAAAQAAgAAAAAAAAAAAAQAAcAAAAAAAAAAAARAAcAAAAAAAAAAAARAAgAAAAAAAAAAAARAAkAAAAAAAAAAAAQAAkAAAAAAAAAAAASAAkAAAAAAAAAAAASAAgAAAAAAAAAAAASAAcAAAAAAAAAAAARAAoAAAAAAAAAAAASAAoAAAAAAAAAAAATAAkAAAAAAAAAAAATAAoAAAAAAAAAAAATAAgAAAAAAAAAAAATAAcAAAAAAAAAAAD//woAAAAAAAAAAAD+/woAAAAAAAAAAAD9/wkAAAAAAAAAAAD9/woAAAAAAAAAAAD+/wkAAAAAAAAAAAD9/wgAAAAAAAAAAAD9/wcAAAAAAAAAAAD9/wYAAAAAAAAAAAD9/wUAAAAAAAAAAAD9/wQAAAAAAAAAAAD8/wQAAAAAAAAAAAD8/wMAAAAAAAAAAAD9/wMAAAAAAAAAAAD8/wUAAAAAAAAAAAD8/wYAAAAAAAAAAAD8/wcAAAAAAAAAAAD8/wgAAAAAAAAAAAD8/wkAAAAAAAAAAAD8/woAAAAAAAAAAAAJAAgAAAABAAAAAAA=")
+tile_set = ExtResource("4_mnnsc")
+
+[node name="Enemy" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="3" unique_id=600502477 instance=ExtResource("5_fwrqu")]
+position = Vector2(349, 438)
+
+[node name="Enemy2" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="4" unique_id=1713420397 instance=ExtResource("6_g4e5w")]
+position = Vector2(290, 505)
+
+[node name="Enemy3" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="5" unique_id=1945459335 instance=ExtResource("5_fwrqu")]
+position = Vector2(1042, 447)
+
 [node name="Label" parent="UserInterface" parent_id_path=PackedInt32Array(1799764374) index="1" unique_id=1103718868]
 text = "Level 2"
+
+[node name="trap_spear" parent="." index="8" unique_id=26661336 instance=ExtResource("5_51x33")]
+position = Vector2(516, 545)
+
+[node name="trap_spear2" parent="." index="9" unique_id=566724477 instance=ExtResource("5_51x33")]
+position = Vector2(524, 545)
+
+[node name="trap_spear3" parent="." index="10" unique_id=623330861 instance=ExtResource("5_51x33")]
+position = Vector2(532, 545)
+
+[node name="trap_spear4" parent="." index="11" unique_id=1375628537 instance=ExtResource("5_51x33")]
+position = Vector2(541, 545)
+
+[node name="trap_spear5" parent="." index="12" unique_id=1370699838 instance=ExtResource("5_51x33")]
+position = Vector2(550, 544)
+
+[node name="trap_spear6" parent="." index="13" unique_id=2041395882 instance=ExtResource("5_51x33")]
+position = Vector2(558, 545)
+
+[node name="trap_spear7" parent="." index="14" unique_id=1254682983 instance=ExtResource("5_51x33")]
+position = Vector2(568, 546)
+
+[node name="trap_spear8" parent="." index="15" unique_id=610724893 instance=ExtResource("5_51x33")]
+position = Vector2(577, 545)
+
+[node name="Trap2" parent="." index="16" unique_id=1894763376 instance=ExtResource("6_f8isr")]
+position = Vector2(814, 322)
+
+[node name="Trap" parent="." index="17" unique_id=1930518021 instance=ExtResource("7_x41uu")]
+position = Vector2(929, 541)
+
+[node name="Trap3" parent="." index="18" unique_id=1734477449 instance=ExtResource("7_x41uu")]
+position = Vector2(-35, 603)
+
+[node name="Trap4" parent="." index="19" unique_id=766055373 instance=ExtResource("6_f8isr")]
+position = Vector2(1201, 294)

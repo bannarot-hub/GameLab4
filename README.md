@@ -1,3 +1,8 @@
+# Game Lab 4 : 2D Platfromer Game
+By Bannarot Porndonko 683380301-1
+- **Game Story** - A young knight sets out into an ancient, cursed forest to recover a stolen magic crystal. Along the way, he must battle corrupted forest creatures, dodge deadly traps, and overcome perilous platforming sections scattered throughout the woods to restore peace to his village.
+- **Game Style** - A retro-inspired pixel art platformer set in an enchanted forest, featuring lush greenery, mystical ruins, and chiptune music. Classic platformer gameplay mechanics with sword combat, jumping puzzles, and forest-themed enemies and hazards.
+
 # 2D Platformer Starter Kit
 
 This starter kit provides all the essential mechanics needed to build a complete 2D platformer game in Godot 4.7. It is designed as a hands-on learning resource for students taking the **Computer Game Development** course at the **College of Computing, Khon Kaen University**.

@@ -1,9 +1,15 @@
 [gd_scene format=3 uid="uid://b6tvaxw54wsq0"]
 
 [ext_resource type="Script" uid="uid://tkynu7pd01lh" path="res://Scenes/Levels/menu.gd" id="1_hq2ph"]
+[ext_resource type="Texture2D" uid="uid://cuu6fkdmu41g4" path="res://Assets/001.png" id="2_ju4x4"]
 
 [node name="Node2D" type="Node2D" unique_id=827773846]
 script = ExtResource("1_hq2ph")
+
+[node name="001" type="Sprite2D" parent="." unique_id=1238877935]
+position = Vector2(574.5, 315.5)
+scale = Vector2(0.839515, 0.59982175)
+texture = ExtResource("2_ju4x4")
 
 [node name="UI" type="Control" parent="." unique_id=2061607031]
 layout_mode = 3
@@ -16,10 +22,10 @@ layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -76.5
-offset_top = 155.0
-offset_right = 78.5
-offset_bottom = 219.0
+offset_left = -86.5
+offset_top = 388.0
+offset_right = 141.15625
+offset_bottom = 482.0
 grow_horizontal = 2
 text = "Start"
 
@@ -28,10 +34,10 @@ layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -76.5
-offset_top = 224.0
-offset_right = 78.5
-offset_bottom = 288.0
+offset_left = 397.5
+offset_top = 342.0
+offset_right = 552.5
+offset_bottom = 406.0
 grow_horizontal = 2
 disabled = true
 text = "Continue"
@@ -41,10 +47,10 @@ layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -77.0
-offset_top = 294.0
-offset_right = 78.0
-offset_bottom = 358.0
+offset_left = 397.5
+offset_top = 413.0
+offset_right = 552.5
+offset_bottom = 477.0
 grow_horizontal = 2
 text = "Option"
 
@@ -53,14 +59,23 @@ layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -76.5
-offset_top = 371.0
-offset_right = 78.5
-offset_bottom = 435.0
+offset_left = 398.5
+offset_top = 483.0
+offset_right = 553.5
+offset_bottom = 547.0
 grow_horizontal = 2
 text = "Credit"
+
+[node name="btnexit" type="Button" parent="UI" unique_id=1968644557]
+layout_mode = 0
+offset_left = 973.0
+offset_top = 556.0
+offset_right = 1134.8064
+offset_bottom = 622.0
+text = "Exit"
 
 [connection signal="pressed" from="UI/btnStart" to="." method="_on_btn_start_pressed"]
 [connection signal="pressed" from="UI/btnContinue" to="." method="_on_btn_continue_pressed"]
 [connection signal="pressed" from="UI/btnOption" to="." method="_on_btn_option_pressed"]
 [connection signal="pressed" from="UI/btnCredit" to="." method="_on_btn_credit_pressed"]
+[connection signal="pressed" from="UI/btnexit" to="." method="_on_btnexit_pressed"]

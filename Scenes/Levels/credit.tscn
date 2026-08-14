@@ -1,10 +1,16 @@
 [gd_scene format=3 uid="uid://bajrtxxftc6wt"]
 
+[ext_resource type="Texture2D" uid="uid://bq3c0jsn7pnsi" path="res://Scenes/Levels/Gemini_Generated_Image_j2al9ej2al9ej2al.png" id="1_0lh7m"]
 [ext_resource type="Theme" uid="uid://d3eng5cvycmjf" path="res://Scenes/Prefabs/theme.tres" id="1_2g1tp"]
 [ext_resource type="Texture2D" uid="uid://1ay25i0wdihg" path="res://Assets/Icons/cpkku_dark.png" id="2_fnvqj"]
 [ext_resource type="PackedScene" uid="uid://puc4l62gx6et" path="res://Scenes/Prefabs/button_exit.tscn" id="3_fnvqj"]
+[ext_resource type="Texture2D" uid="uid://do0w2l335gq6" path="res://Scenes/Levels/002_.png" id="4_4nn8d"]
 
 [node name="Node2D" type="Node2D" unique_id=264957255]
+
+[node name="GeminiGeneratedImageJ2Al9Ej2Al9Ej2Al" type="Sprite2D" parent="." unique_id=1590840420]
+position = Vector2(543, 327)
+texture = ExtResource("1_0lh7m")
 
 [node name="Control" type="Control" parent="." unique_id=423201679]
 layout_mode = 3
@@ -13,7 +19,8 @@ offset_right = 1154.0
 offset_bottom = 650.0
 
 [node name="CpkkuDark" type="Sprite2D" parent="Control" unique_id=813724852]
-position = Vector2(584, 71)
+position = Vector2(535, 47)
+scale = Vector2(1.1891892, 1.1891892)
 texture = ExtResource("2_fnvqj")
 
 [node name="Title" type="Label" parent="Control" unique_id=1640205557]
@@ -21,10 +28,10 @@ layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -148.0
-offset_top = 295.0
-offset_right = 153.0
-offset_bottom = 327.0
+offset_left = 187.0
+offset_top = 271.0
+offset_right = 488.0
+offset_bottom = 303.0
 grow_horizontal = 2
 theme = ExtResource("1_2g1tp")
 theme_override_colors/font_color = Color(0.88235295, 0.18039216, 0.1882353, 1)
@@ -40,10 +47,10 @@ layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -167.0
-offset_top = 177.0
-offset_right = 207.0
-offset_bottom = 209.0
+offset_left = -227.0
+offset_top = 182.0
+offset_right = 153.0
+offset_bottom = 229.0
 grow_horizontal = 2
 theme = ExtResource("1_2g1tp")
 theme_override_constants/outline_size = 10
@@ -56,16 +63,18 @@ vertical_alignment = 1
 [node name="btnExit" parent="Control" unique_id=1633606001 instance=ExtResource("3_fnvqj")]
 layout_mode = 0
 offset_left = 33.0
+offset_top = 0.0
 offset_right = 159.0
+offset_bottom = 54.0
 
 [node name="Title3" type="Label" parent="Control" unique_id=1657901293]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -148.0
+offset_left = -307.0
 offset_top = 129.0
-offset_right = 153.0
+offset_right = 243.0
 offset_bottom = 161.0
 grow_horizontal = 2
 theme = ExtResource("1_2g1tp")
@@ -80,16 +89,18 @@ layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -187.0
-offset_top = 360.0
-offset_right = 193.0
-offset_bottom = 407.0
+offset_left = 169.0
+offset_top = 331.0
+offset_right = 549.0
+offset_bottom = 378.0
 grow_horizontal = 2
 theme = ExtResource("1_2g1tp")
 theme_override_constants/outline_size = 10
 theme_override_font_sizes/font_size = 16
-text = "1. 
-2.
-3.
-4."
+text = "1.  นายบรรณรต พรดอนก่อ รหัส 683380301-1"
 vertical_alignment = 1
+
+[node name="002" type="Sprite2D" parent="." unique_id=1493001207]
+position = Vector2(521, 444)
+scale = Vector2(0.76756, 0.76756)
+texture = ExtResource("4_4nn8d")

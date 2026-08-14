@@ -1,67 +1,82 @@
 [gd_scene format=3 uid="uid://b48s52q3f64kl"]
 
 [ext_resource type="PackedScene" uid="uid://d27bcsmx82vfa" path="res://Scenes/Actors/enemy.tscn" id="1_a4af2"]
-[ext_resource type="Texture2D" uid="uid://bgo8qsi7vlfr1" path="res://Assets/Spritesheet/Mushroom-Run.png" id="2_2oid6"]
 [ext_resource type="Script" uid="uid://bx5lotsye1r4s" path="res://Scenes/Actors/monster_small.gd" id="2_tyn28"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_na032"]
-atlas = ExtResource("2_2oid6")
-region = Rect2(0, 22, 80, 42)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_cy5wp"]
-atlas = ExtResource("2_2oid6")
-region = Rect2(80, 22, 80, 42)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_aldu0"]
-atlas = ExtResource("2_2oid6")
-region = Rect2(160, 22, 80, 42)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_5jiam"]
-atlas = ExtResource("2_2oid6")
-region = Rect2(240, 22, 80, 42)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_se70e"]
-atlas = ExtResource("2_2oid6")
-region = Rect2(320, 22, 80, 42)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_fblqy"]
-atlas = ExtResource("2_2oid6")
-region = Rect2(400, 22, 80, 42)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_k3ucb"]
-atlas = ExtResource("2_2oid6")
-region = Rect2(480, 22, 80, 42)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_x2ha1"]
-atlas = ExtResource("2_2oid6")
-region = Rect2(560, 22, 80, 42)
+[ext_resource type="Texture2D" uid="uid://jthcmvtfs2b" path="res://Scenes/Actors/Minotaur_03_Walking_000.png" id="3_d1iqb"]
+[ext_resource type="Texture2D" uid="uid://cvtd5kkw7wx0g" path="res://Scenes/Actors/Minotaur_03_Walking_001.png" id="4_qnyj8"]
+[ext_resource type="Texture2D" uid="uid://bk4ixmnekc23t" path="res://Scenes/Actors/Minotaur_03_Walking_002.png" id="5_3pdfo"]
+[ext_resource type="Texture2D" uid="uid://d0fuu3uvj4op4" path="res://Scenes/Actors/Minotaur_03_Walking_003.png" id="6_po8nb"]
+[ext_resource type="Texture2D" uid="uid://u4rq0vnj2u8n" path="res://Scenes/Actors/Minotaur_03_Walking_004.png" id="7_83gpq"]
+[ext_resource type="Texture2D" uid="uid://31s02q1x72f4" path="res://Scenes/Actors/Minotaur_03_Walking_005.png" id="8_ge180"]
+[ext_resource type="Texture2D" uid="uid://bttaq4dq8a8mi" path="res://Scenes/Actors/Minotaur_03_Walking_006.png" id="9_jfqe0"]
+[ext_resource type="Texture2D" uid="uid://duerklvpjd3s" path="res://Scenes/Actors/Minotaur_03_Walking_007.png" id="10_lkoxt"]
+[ext_resource type="Texture2D" uid="uid://b6bhgf4tbeg7" path="res://Scenes/Actors/Minotaur_03_Walking_008.png" id="11_hapug"]
+[ext_resource type="Texture2D" uid="uid://dj8fevsme86yj" path="res://Scenes/Actors/Minotaur_03_Walking_009.png" id="12_xlle1"]
+[ext_resource type="Texture2D" uid="uid://dffx1jf7ohga4" path="res://Scenes/Actors/Minotaur_03_Walking_010.png" id="13_v8kdd"]
+[ext_resource type="Texture2D" uid="uid://b36p0iit5msoq" path="res://Scenes/Actors/Minotaur_03_Walking_011.png" id="14_g172v"]
+[ext_resource type="Texture2D" uid="uid://d1e4rkjuscjwg" path="res://Scenes/Actors/Minotaur_03_Walking_012.png" id="15_y8xlk"]
+[ext_resource type="Texture2D" uid="uid://bvrxi3p4i131s" path="res://Scenes/Actors/Minotaur_03_Walking_013.png" id="16_3vld4"]
+[ext_resource type="Texture2D" uid="uid://bs1xf1isjscu" path="res://Scenes/Actors/Minotaur_03_Walking_014.png" id="17_30v5n"]
+[ext_resource type="Texture2D" uid="uid://mkekdtr1ucmw" path="res://Scenes/Actors/Minotaur_03_Walking_015.png" id="18_beajl"]
+[ext_resource type="Texture2D" uid="uid://mjhd82yixv2t" path="res://Scenes/Actors/Minotaur_03_Walking_016.png" id="19_cvjj7"]
+[ext_resource type="Texture2D" uid="uid://dtakuj16mwibn" path="res://Scenes/Actors/Minotaur_03_Walking_017.png" id="20_xgxag"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_l7ctk"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_na032")
+"texture": ExtResource("3_d1iqb")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_cy5wp")
+"texture": ExtResource("4_qnyj8")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_aldu0")
+"texture": ExtResource("5_3pdfo")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_5jiam")
+"texture": ExtResource("6_po8nb")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_se70e")
+"texture": ExtResource("7_83gpq")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_fblqy")
+"texture": ExtResource("8_ge180")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_k3ucb")
+"texture": ExtResource("9_jfqe0")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_x2ha1")
+"texture": ExtResource("10_lkoxt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_hapug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_xlle1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_v8kdd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_g172v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_y8xlk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_3vld4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_30v5n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_beajl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_cvjj7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_xgxag")
 }],
 "loop": 1,
 "name": &"mushroom",
@@ -80,7 +95,9 @@ position = Vector2(0, -33)
 scale = Vector2(1.5, 1.5)
 
 [node name="AnimateSprite" type="AnimatedSprite2D" parent="Sprite" parent_id_path=PackedInt32Array(1445111960) index="0" unique_id=87960724]
-position = Vector2(0, -42)
-scale = Vector2(2, 2)
+position = Vector2(-0.99999905, -32)
+scale = Vector2(0.14005096, 0.140051)
 sprite_frames = SubResource("SpriteFrames_l7ctk")
 animation = &"mushroom"
+frame = 14
+frame_progress = 0.45065412
