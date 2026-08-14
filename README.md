@@ -21,6 +21,7 @@ This starter kit provides all the essential mechanics needed to build a complete
 <img src="docs/demo1.png" width="300"> <img src="docs/demo2.png" width="300">
 
 - [Play Game](https://bannarot-hub.github.io/GameLab4/)
+- [Demo Video](https://drive.google.com/file/d/13x9R8B9d5O9Qojvdjd3QaHSZA0i32X1G/view)
 
 
 ## Features
