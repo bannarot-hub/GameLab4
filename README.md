@@ -10,7 +10,7 @@ By Bannarot Porndonko 683380301-1
 ## Demo Video
 
 [ดูคลิปสาธิตการเล่นเกม](https://drive.google.com/file/d/13x9R8B9d5O9Qojvdjd3QaHSZA0i32X1G/view)
-[เล่นเกม](https://bannarot-hub.github.io/GameLab4/)
+
 
 # 2D Platformer Starter Kit
 
@@ -18,7 +18,7 @@ This starter kit provides all the essential mechanics needed to build a complete
 
 ## Preview
 
-<img src="docs/qrcode.png" style="width:300px;" />
+<img src="docs/demo1.png" width="300"> <img src="docs/demo2.png" width="300">
 
 - [Play Game](https://bannarot-hub.github.io/GameLab4/)
 
