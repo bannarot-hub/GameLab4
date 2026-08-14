@@ -3,14 +3,6 @@ By Bannarot Porndonko 683380301-1
 - **Game Story** - A young knight sets out into an ancient, cursed forest to recover a stolen magic crystal. Along the way, he must battle corrupted forest creatures, dodge deadly traps, and overcome perilous platforming sections scattered throughout the woods to restore peace to his village.
 - **Game Style** - A retro-inspired pixel art platformer set in an enchanted forest, featuring lush greenery, mystical ruins, and chiptune music. Classic platformer gameplay mechanics with sword combat, jumping puzzles, and forest-themed enemies and hazards.
 
-## Screenshots
-
-<img src="docs/demo1.png" width="300"> <img src="docs/demo2.png" width="300">
-
-## Demo Video
-
-[ดูคลิปสาธิตการเล่นเกม](https://drive.google.com/file/d/13x9R8B9d5O9Qojvdjd3QaHSZA0i32X1G/view)
-
 
 # 2D Platformer Starter Kit
 
@@ -20,8 +12,8 @@ This starter kit provides all the essential mechanics needed to build a complete
 
 <img src="docs/demo1.png" width="300"> <img src="docs/demo2.png" width="300">
 
-- [Play Game](https://bannarot-hub.github.io/GameLab4/)
 - [Demo Video](https://drive.google.com/file/d/13x9R8B9d5O9Qojvdjd3QaHSZA0i32X1G/view)
+- [Play Game](https://bannarot-hub.github.io/GameLab4/)
 
 
 ## Features
